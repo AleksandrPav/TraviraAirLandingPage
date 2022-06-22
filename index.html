@@ -45,10 +45,31 @@
                     
                 </nav>
                 <div>
-                    <a href=""class="nav__btn">Contact Us</a>
+                    <a href=""class="nav__btn modal-open">Contact Us</a>
                 </div>
-                
-                
+            </div>
+            <div class="modal modal__container visually-hidden">
+                <a href="" class="modal__close"><svg class="modal__close-icon">
+                        <use href="/img/symbol-defs.svg#icon-cancel"></use>
+                    </svg></a>
+                <form id="contact" action="" method="post">
+                    <h3 class="modal__title">Quick Contact</h3>
+                    <h4 class="modal__text">Contact us today, and get a special discount!</h4>
+                    <fieldset class="modal__item">
+                        <input class="modal__input" placeholder="Your name" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                    <fieldset class="modal__item">
+                        <input class="modal__input" placeholder="Your Email Address" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset class="modal__item">
+                        <input class="modal__input" placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                    </fieldset>
+                    <fieldset class="modal__item">
+                        <button class="modal__btn" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
+                </form>
+            
+            
             </div>
         </section>
 
@@ -58,6 +79,6 @@
 
 
 
-<script src="/js/brgmenu.js"></script>
+<script src="/js/index.js" type="module"></script>
 </body>
 </html>

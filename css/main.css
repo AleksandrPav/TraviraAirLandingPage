@@ -58,6 +58,111 @@ main {
   padding: 0px 120px;
 }
 
+.modal__container {
+  position: relative;
+  background-color: #0E1035;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.modal__title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.modal__text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.modal__input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.modal__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+
+.modal__item:nth-child(5) {
+  margin-bottom: 40px;
+}
+
+.modal__btn {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.modal__btn:hover, .modal__btn:focus {
+  background-color: #2F80ED;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.modal__close-icon {
+  position: absolute;
+  fill: #FFFFFF;
+  width: 35px;
+  height: 35px;
+  top: 10px;
+  right: 10px;
+  -webkit-transition: fill 0.3s ease-in-out;
+  transition: fill 0.3s ease-in-out;
+}
+
+.modal__close-icon:hover, .modal__close-icon:focus {
+  fill: #2F80ED;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
