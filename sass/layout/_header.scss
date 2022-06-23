@@ -2,14 +2,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 75px;
-    min-height: 122px;   
-    @media (max-width: 1110px) {
-        padding: 50px 20px 75px 20px
+   padding: 10px 20px 25px 20px;
+    min-height: 122px; 
+    width: 100%; 
+    @media (min-width: 911.99px) {
+    padding: 50px 70px 75px 70px;
     }
+    @media (min-width: 1279.99px) {
+    padding: 50px 120px 191px 120px;
+    }
+   
+
 }
 
+.header__nav{
+    margin-right: 10px;
+}
 
 
 
@@ -47,12 +55,16 @@
         font-size: 18px;
         line-height: 140%;
  }
+ @media (max-width:801px) {
+     display: none;
+ }
 
 }
 .nav__btn{
- display: inline-block;
+    display: inline-block;
     background-color: inherit;
     padding: 17px 42px;
+    // padding: 17px 42px;
     border: 1px solid #000000;
     border-radius: 16px;
     font-family: 'Poppins';
@@ -70,9 +82,17 @@
     color: #ffffff;
     border: 1px solid $navbtn-colorhover;
 }
-
+@media (max-width:801px) {
+   display: none;
+ }
 
 }
+
+.nav__buuton{
+   margin-right: 20px;
+}
+
+
 
 
 

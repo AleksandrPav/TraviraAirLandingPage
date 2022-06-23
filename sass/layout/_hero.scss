@@ -1,0 +1,60 @@
+.hero{
+    padding-bottom:  150px;
+}
+
+
+.hero__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__discription{
+    max-width: 51%;
+}
+.hero__title{
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 1.20;
+    color: $title-color;
+    margin-bottom: 35px;
+}
+
+.title-blue{
+    color: #2F80ED;
+}
+.hero__text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: $title-text;
+    margin-bottom: 83px;
+}
+
+.hero__img img{
+    position: absolute;
+    max-width: 60%;
+    z-index: -1;
+    top: 2.5%;
+    left: 40%;
+    object-fit: cover;
+    overflow: hidden;
+    @media (max-width: 1705.99px) {
+        width: 70%;
+    }
+}
+
+.hero__btn{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #0E1035;
+    border-radius: 31.544px;
+    padding: 32px 68px;
+    transition: background 0.3s ease-in-out;
+&:hover{
+    background: $navbtn-colorhover;
+
+}
+}

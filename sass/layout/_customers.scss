@@ -1,0 +1,22 @@
+.сustomers{
+    background-color: $customers-background;
+}
+.сustomers__content{
+    padding: 108px 0 151px 0 ;
+}
+
+.customers__title{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25.2352px;
+    line-height: 140%;
+    color: $customers-text;
+    margin-bottom: 75px;
+}
+
+.customers__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

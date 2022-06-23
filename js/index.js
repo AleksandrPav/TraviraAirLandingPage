@@ -1,9 +1,18 @@
-import Modal from "/js/modal.js";
+import Modal from "./modal.js";
+import BrgMenu from "./brgmenu.js";
 
-const modal = new Modal(".modal-open");
+const modalMenu = new Modal();
+const burgerMenu = new BrgMenu();
+modalMenu.openModal();
+burgerMenu.burgerMenu();
+// modalMenu.openBurgerModal();
 
-modal.openModal();
-modal.closeModal();
-modal.closeOnEsc();
-modal.onWindowClickClose();
-modal.onSubmitClose();
+
+
+
+
+
+
+
+
+

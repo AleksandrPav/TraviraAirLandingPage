@@ -12,14 +12,17 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="/css/main.min.css">
+    
+    <link rel="stylesheet" href="./css/main.min.css">
+
+   
+  
 
 </head>
 
 <body>
     <header>
-        <section class="header">
+    <section class="header">
             <div class="header__container __container">
                 <a href="#" class="logo">
                     <img src="/img/logo.png" alt="logo">
@@ -44,14 +47,24 @@
                     </ul>
                     
                 </nav>
-                <div>
-                    <a href="" class="nav__btn modal-open">Contact Us</a>
+                <div class="nav__buuton">
+
+                    <button type="button" class="nav__btn">Contact Us</button>
+                    
+                </div>
+                
+                
+                <div class="burger">
+                    <span class="burger-box">
+                        <span class="burger__menu"></span>
+                    </span>
                 </div>
             </div>
-            <div class="modal modal__container visually-hidden">
-                <a href="" class="modal__close"><svg class="modal__close-icon">
-                        <use href="/img/symbol-defs.svg#icon-cancel"></use>
-                    </svg></a>
+            <div class="modal__container visually-hidden">
+                
+                    <a href="" class="modal__close"><svg class="modal__close-icon">
+                            <use href="/img/symbol-defs.svg#icon-cancel"></use>
+                        </svg></a>
                 <form id="contact" method="post">
                     <h3 class="modal__title">Quick Contact</h3>
                     <h4 class="modal__text">Contact us today, and get a special discount!</h4>
@@ -68,10 +81,186 @@
                         <button class="modal__btn" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
                     </fieldset>
                 </form>
-            
-            
             </div>
-        </section>
+
+
+            <div class="burger-menu">
+                
+                <div class="burger-menu__content">
+                    <ul class="burger-menu__items">
+                        <li class="burger-menu__item">
+                            <a href="" class="burger-menu__link">Home</a>
+                        </li>
+                        <li class="burger-menu__item">
+                            <a href="" class="burger-menu__link">About</a>
+                        </li>
+                        <li class="burger-menu__item">
+                            <a href="" class="burger-menu__link">Service</a>
+                        </li>
+                        <li class="burger-menu__item">
+                            <a href="" class="burger-menu__link">Safety</a>
+                        </li>
+                        <li class="burger-menu__item">
+                            <a href="" class="burger-menu__link">Careers</a>
+                        </li>
+                    </ul>                    
+                    <div>
+                    
+                        <button type="button" class="burger-menu__btn">Contact Us</button>
+                    
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <section class="hero">
+            <div class="hero__container __container">
+                <div class="hero__content">
+                <div class="hero__discription">
+                    <h3 class="hero__title"><span class="hero__title title-blue">World class </span>charter and maintenance flights</h3>
+                    <p class="hero__text">Our goal is simply to offer the highest standards of professionalism and service as measured by our safety record,
+                    dispatch reliability and customer satisfaction</P>
+                    <a href="" class="hero__btn">Booking Now</a>
+                </div>
+                <div class="hero__img">
+                    <img src="/img/hero/helicop.svg" alt="helicopter">
+                </div>
+                </div>
+
+
+            </div>
+    </section>
+    <section class="сustomers">
+        <div class="сustomers__container __container">
+            <div class="сustomers__content">
+                <h4 class="customers__title"><span class="title-blue">Companies </span>that have used our services</h4>
+                <ul class="customers__items">
+                    <li class="customers__item">
+                        <img src="/img/customers/customer1.png" alt="customer">
+                    </li>
+                    <li class="customers__item">
+                        <img src="/img/customers/customer2.png" alt="customer">
+                    </li>
+                    <li class="customers__item">
+                        <img src="/img/customers/customer3.png" alt="customer">
+                    </li>
+                    <li class="customers__item">
+                        <img src="/img/customers/customer4.png" alt="customer">
+                    </li>  
+                </ul>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="ourservice">
+        <div class="ourservice__container __container">
+            <div class="ourservice__content">
+                <div class="ourservice__image">
+                    <img src="/img/service/service.jpg" alt="service">
+                </div>
+                <div class="ourservice__list">
+                    <h4 class="ourservice__title">Our <span class="title-blue">Services</span></h4>
+                    <p class="ourservice__text">Travira Air is totally committed to supporting our clients by providing safe and reliable solutions for their air
+                    charter needs.</p>
+                    <div class="ourservice__links-list">
+                    <ul class="ourservice__items">
+                        <li class="ourservice__item">
+                            <a href="" class="ourservice__link">SCHEDULED & SPOT CHARTER</a>
+                        </li>
+                        <li class="ourservice__item">
+                            <a href="" class="ourservice__link">LONGTERM CONTRACT</a>
+                        </li>
+                        <li class="ourservice__item">
+                            <a href="" class="ourservice__link">MEDICAL EVACUATION FLIGHT</a>
+                        </li>
+                        <li class="ourservice__item">
+                            <a href="" class="ourservice__link">AIRCRAFT MANAGEMENT</a>
+                        </li>
+                    </ul>
+                    <ul class="ourservice__items">
+                        <li class="ourservice__item">
+                            <a href="" class="ourservice__link">AIRCRAFT MRO</a>
+                        </li>
+                        <li class="ourservice__item">
+                            <a href="" class="ourservice__link">ONSHORE</a>
+                        </li>
+                        <li class="ourservice__item">
+                            <a href="" class="ourservice__link">OFFSHORE</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="safety">
+        <div class="safety__container __container">
+            <div class="safety__content">
+                <div class="safety__list">
+                    <h4 class="safety__title">Safety</span></h4>
+                    <p class="safety__text">It is a matter of pride for Travira Air that we have one of the best air charter safety records in the region</p>
+                    <div class="safety__links-list">
+                        <ul class="safety__items">
+                            <li class="safety__item">
+                                <a href="" class="safety__link">MANAGEMENT COMMITMENT</a>
+                            </li>
+                            <li class="safety__item">
+                                <a href="" class="safety__link">IT-BASED TRACKING AND MONITORING</a>
+                            </li>
+                            <li class="safety__item">
+                                <a href="" class="safety__link">INDEPENDENT VERIFICATION</a>
+                            </li>
+                            <li class="safety__item">
+                                <a href="" class="safety__link">INTERNATIONAL ACCREDITATION</a>
+                            </li>
+                            <li class="safety__item">
+                                <a href="" class="safety__link">BEHIND THE SCENES</a>
+                            </li>
+                        </ul>
+                        <ul class="safety__items">
+                            <li class="safety__item">
+                                <a href="" class="safety__link">GLOBAL OUTLOOK</a>
+                            </li>
+                            <li class="safety__item">
+                                <a href="" class="safety__link">PILOTS AND CREW</a>
+                            </li>
+                            <li class="safety__item">
+                                <a href="" class="safety__link">MEDICAL FACILITIES</a>
+                            </li>
+                            <li class="safety__item">
+                                <a href="" class="safety__link">AIRCRAFT FLEET</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="safety__image">
+                    <img src="/img/safety/safety.jpg" alt="safety">
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <section class="fleet">
+        <div class="fleet__container __container">
+            <h3 class="fleet__title">Fleet</h3>
+            <p class="fleet__text">Travira Air is totally committed to supporting our clients by <br> providing safe and reliable solutions for their air
+            charter needs.</p>
+            <div class="gallary">
+                <div class="gallary__item">
+                    <img src="/img/fleet/Group 36.jpg" alt="fleet" class="gallary__img">
+                <div class="gallary__item">
+                    <img src="/img/fleet/Group 37.jpg" alt="fleet" class="gallary__img">
+                </div>
+                <div class="gallary__item">
+                    <img src="/img/fleet/Group 38.jpg" alt="fleet" class="gallary__img">
+                </div>
+            </div>
+        </div>
+    </section>
 
     </header>
 
@@ -80,5 +269,6 @@
 
 
 <script src="/js/index.js" type="module"></script>
+
 </body>
 </html>
