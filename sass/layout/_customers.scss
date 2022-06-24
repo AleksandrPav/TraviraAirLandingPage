@@ -19,4 +19,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 896px) {
+        flex-direction: column;
+        
+    }
+}
+.customers__item{
+    @media (max-width: 896px) {
+        &:not(:last-child){
+            margin-bottom: 50px;
+        }
+    }
 }

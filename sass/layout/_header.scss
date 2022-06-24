@@ -2,17 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-   padding: 10px 20px 25px 20px;
+    padding: 50px 120px 191px 120px;
     min-height: 122px; 
     width: 100%; 
-    @media (min-width: 911.99px) {
-    padding: 50px 70px 75px 70px;
+    @media (max-width: 896px) {
+        padding: 50px 60px 30px 60px;
     }
-    @media (min-width: 1279.99px) {
-    padding: 50px 120px 191px 120px;
-    }
-   
-
+ 
 }
 
 .header__nav{
