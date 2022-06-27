@@ -924,4 +924,136 @@ main {
   color: black;
   font-size: 80px;
 }
+
+.aboutus__wrapper {
+  background-image: url(../img/aboutus/sky.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.aboutus__title {
+  padding: 62px 0px 0px 25px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #232323;
+  margin-bottom: 66px;
+}
+
+.aboutus__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutus__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  max-width: 550px;
+  height: auto;
+  background: #FFFFFF;
+  -webkit-box-shadow: 30px 10px 50px rgba(152, 149, 149, 0.3);
+          box-shadow: 30px 10px 50px rgba(152, 149, 149, 0.3);
+  border-radius: 30px;
+  padding: 32px 25px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.aboutus__item:nth-child(1) {
+  margin-right: 32px;
+}
+
+.aboutus__item:hover {
+  -webkit-box-shadow: 30px 10px 50px rgba(152, 149, 149, 0.5);
+          box-shadow: 30px 10px 50px rgba(152, 149, 149, 0.5);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+}
+
+.aboutus__item:hover .aboutus__item-text {
+  color: #9C9C9C;
+}
+
+.aboutus__client-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.aboutus__client-name img {
+  width: 100px;
+  height: auto;
+  margin-right: 24px;
+}
+
+.aboutus__client-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboutus__item-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #232323;
+  margin-bottom: 8px;
+}
+
+.aboutus__item-position {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  color: #9C9C9C;
+}
+
+.aboutus__item-text {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 116%;
+  color: #0E1035;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  margin-bottom: 18px;
+}
+
+.aboutus_stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
 /*# sourceMappingURL=main.css.map */

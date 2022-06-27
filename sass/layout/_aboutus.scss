@@ -1,0 +1,107 @@
+.aboutus{
+   
+}
+.aboutus__wrapper{
+    background-image: url(../img/aboutus/sky.png);
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+}
+
+.aboutus__container{
+    
+
+}
+.aboutus__title{
+    padding: 62px 0px 0px 25px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: $aboutus-title;
+    margin-bottom: 66px;
+
+}
+.aboutus__content{
+
+}
+.aboutus__items{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.aboutus__item{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: end;
+  
+    max-width: 550px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 30px 10px 50px rgba(152, 149, 149, 0.3);
+    border-radius: 30px;
+    padding: 32px 25px;
+    transition: all 0.3s ease-in-out;
+    &:nth-child(1){
+        margin-right: 32px;
+    }
+    &:hover{
+        box-shadow: 30px 10px 50px rgba(152, 149, 149, 0.5);
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    &:hover .aboutus__item-text{
+        color: $aboutus-item-texthover;
+    }
+}
+.aboutus__client-name{
+    display: flex;
+    margin-bottom: 32px;
+    
+}
+.aboutus__client-name img{
+   width: 100px;
+    height: auto;
+margin-right: 24px;
+}
+.aboutus__client-item{
+    display: flex;
+    flex-direction: column;
+
+   
+}
+.aboutus__item-title{
+    font-weight: 700;
+        font-size: 28px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: $aboutus-item-title;
+        margin-bottom: 8px;
+
+}
+.aboutus__item-position{
+    font-weight: 600;
+        font-size: 16px;
+        line-height: 175%;
+        color: $aboutus-item-position;
+
+}
+.aboutus__item-text{
+    font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 116%;
+        color: $aboutus-item-text;
+        transition: color 0.3s ease-in-out;
+        margin-bottom: 18px;    
+}
+
+.aboutus_stars{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

@@ -5,7 +5,7 @@ const swiper = new Swiper(`.swiper`, {
         prevEl: ".swiper-button-prev",
     },
         slidesPerView: 2,
-        centeredSlides: true,
+        centeredSlides: false,
         spaceBetween: 30,
 });
 
