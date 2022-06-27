@@ -907,4 +907,21 @@ main {
   text-align: center;
   margin-bottom: 103px;
 }
+
+.gallary__items-image {
+  text-align: center;
+}
+
+.gallary__items {
+  padding: 30px 0px 70px 0px;
+}
+
+.gallary__items-image img {
+  max-width: 100%;
+}
+
+.gallary__items .gallary__next::after, .gallary__items .gallary__items .gallary__prev::after {
+  color: black;
+  font-size: 80px;
+}
 /*# sourceMappingURL=main.css.map */
