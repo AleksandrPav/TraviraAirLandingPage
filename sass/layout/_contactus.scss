@@ -1,0 +1,29 @@
+.contactus{
+    padding-bottom: 190px;
+    position: relative;
+    @media (max-width:1700px) {
+        display: none;
+    }
+  
+}
+
+.contactus__container{
+    width: 100%;
+    height: 422px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0E1035;
+    border-radius: 84.1172px;
+    margin-top: -252px;
+    
+}
+.contactus__text{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 46.2645px;
+        line-height: 120%;
+        color: #FFFFFF;
+    
+}

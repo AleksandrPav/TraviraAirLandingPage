@@ -60,7 +60,6 @@
     display: inline-block;
     background-color: inherit;
     padding: 17px 42px;
-    // padding: 17px 42px;
     border: 1px solid #000000;
     border-radius: 16px;
     font-family: 'Poppins';
@@ -84,8 +83,28 @@
 
 }
 
-.nav__buuton{
-   margin-right: 20px;
+.nav__btn-white{
+
+    display: inline-block;
+        background-color: #ffffff;
+        padding: 17px 42px;
+        border: 1px solid #000000;
+        border-radius: 16px;
+        font-family: 'Poppins';
+        color: $navbtn-color;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 140%;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        text-align: center;
+        justify-content: flex-end;
+    
+        &:hover {
+            background-color: $navbtn-colorhover;
+            color: #ffffff;
+            border: 1px solid $navbtn-colorhover;
+        }
 }
 
 

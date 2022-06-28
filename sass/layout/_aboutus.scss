@@ -1,5 +1,6 @@
 .aboutus{
    
+   
 }
 .aboutus__wrapper{
     background-image: url(../img/aboutus/sky.png);
@@ -11,10 +12,7 @@
         margin: 0;
 }
 
-.aboutus__container{
-    
 
-}
 .aboutus__title{
     padding: 62px 0px 0px 25px;
     font-weight: 700;
@@ -31,6 +29,7 @@
 .aboutus__items{
     display: flex;
     flex-wrap: wrap;
+  
    
 }
 .aboutus__item{
@@ -38,7 +37,6 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: end;
-  
     max-width: 550px;
     height: auto;
     background: #FFFFFF;
@@ -57,16 +55,35 @@
     &:hover .aboutus__item-text{
         color: $aboutus-item-texthover;
     }
+    @media (max-width: 896px){
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+    @media (max-width: 576px){
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+          @media (max-width: 1371.99px) {
+              &:last-child {
+                  display: none;
+              }
+          }
 }
 .aboutus__client-name{
     display: flex;
     margin-bottom: 32px;
+    @media (max-width: 896px){
+        flex-direction: column;
+    }
     
 }
 .aboutus__client-name img{
    width: 100px;
     height: auto;
 margin-right: 24px;
+@media (max-width: 896px){
+    margin-right: 0;
+}
 }
 .aboutus__client-item{
     display: flex;
@@ -81,6 +98,11 @@ margin-right: 24px;
         letter-spacing: 0.01em;
         color: $aboutus-item-title;
         margin-bottom: 8px;
+        @media (max-width: 896px){
+            font-size: 24px;
+            line-height: 140%;
+            margin-bottom: 0;
+        }
 
 }
 .aboutus__item-position{
@@ -88,6 +110,11 @@ margin-right: 24px;
         font-size: 16px;
         line-height: 175%;
         color: $aboutus-item-position;
+        @media (max-width: 896px)
+        {
+            font-size: 14px;
+            line-height: 140%;
+        }
 
 }
 .aboutus__item-text{
@@ -98,6 +125,11 @@ margin-right: 24px;
         color: $aboutus-item-text;
         transition: color 0.3s ease-in-out;
         margin-bottom: 18px;    
+        @media (max-width: 896px){
+            font-size: 18px;
+            line-height: 140%;
+            margin-bottom: 0;
+        }
 }
 
 .aboutus_stars{

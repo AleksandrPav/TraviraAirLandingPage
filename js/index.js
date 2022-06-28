@@ -11,7 +11,7 @@ modalMenu.openModal();
 burgerMenu.burgerMenu();
 swiper.init();
 
-// modalMenu.openBurgerModal();
+modalMenu.openBurgerModal();
 
 
 
